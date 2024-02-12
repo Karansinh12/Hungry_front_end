@@ -1,0 +1,23 @@
+.logout-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logout-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .logout-button {
+    background-color: #ff0000; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  

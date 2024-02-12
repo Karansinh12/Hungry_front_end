@@ -1,0 +1,269 @@
+.menu-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  border: 1px solid #ccc;
+  flex-direction: row;
+  align-items: center;
+  gap:20px;
+  width:450px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-sec-1 {
+  flex:30%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.menu-item-image{
+  height: 200px;
+  width:150px;
+}
+
+.menu-sec-2 {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-details-button{
+  background-color: #EBB22F;
+  width:200px;
+}
+
+.review-form-container {
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.review-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.rating-dropdown{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #EBB22F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.details-container{
+  display: flex;
+  justify-content: center;
+}
+
+.details-box{
+  margin: 0 0 ;
+  border: 1px solid #ccc;
+  width:500px;
+  height: 670px;
+  margin-top:50px;
+  margin-bottom: 10px;
+  padding: 20px 40px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-img{
+  width:300px;
+  height:300px;
+}
+
+.quantity{
+  background-color: #EBB22F;
+  color:black;
+  width:40px;
+  height: 40px;
+}
+
+.add-to-cart{
+  background-color: #EBB22F;
+  padding:10px;
+}
+
+.view-cart{
+  width:200px;
+  margin: 20px 0px;
+  background-color: #EBB22F;
+  padding:10px;
+}
+
+.view-cart-container{
+  display: flex;
+  border: 1px solid #ccc;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+  margin: 30px 200px;
+  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 180px;
+}
+
+.viewcart-btn-grp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+.view-cart-box {
+  width: 100%;
+  margin: auto;
+}
+
+.view-cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.view-crt-button {
+  width:80px;
+  background-color: #EBB22F;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+tr,td{
+  text-align: center;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.edit-input{
+  width:50px;
+  margin-right: 10px;
+}
+
+.confirm-order{
+  width:200px;
+  background-color: #EBB22F;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.my-order-container{
+  display: flex;
+  justify-content: center;
+}
+
+.view-order{
+  width:200px;
+  background-color: #EBB22F;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.order-logout{
+  width:200px;
+  background-color: #EBB22F;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.delete-order-btn{
+  width:200px;
+  background-color: #EBB22F;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.od-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.order-view-container{
+  display: flex;
+  justify-content: center;
+}
+
+.view-order-btn-grp{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap:20px;
+}
+
+.thankyou-btn-grp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-bottom: 30px;
+}
+
+.confirm-btn-grop{
+  display: flex;
+  justify-self: center;
+  gap:20px;
+  margin-bottom: 30px;
+}

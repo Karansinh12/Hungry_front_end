@@ -1,0 +1,90 @@
+.container1 {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.containersearch {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.restaurant {
+  width: 600px;
+  height:300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.restaurant:hover {
+  background-color: #e0e0e0;
+}
+
+.restaurant img {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.restaurant h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.restaurant p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .restaurant {
+    flex-direction: column;
+    text-align: center;
+  }
+  .restaurant img {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+.search-section {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.search-input {
+width: 300px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.dropdown {
+width: 200px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
